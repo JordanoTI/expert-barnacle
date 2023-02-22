@@ -46,3 +46,11 @@ docker-compose --version
 git config --global user.name "JordanoTI"
 
 git config --global user.email "jordanoffice97@gmail.com"
+
+ssh-keygen -t rsa -b 4096 -C "jordanoffice97@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+cat ~/.ssh/id_rsa.pub
