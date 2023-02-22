@@ -40,3 +40,9 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker
 sudo chmod +x /usr/local/bin/docker-compose
 
 docker-compose --version
+
+######### GIT ##############################################################################################################################################
+
+git config --global user.name "JordanoTI"
+
+git config --global user.email "jordanoffice97@gmail.com"
