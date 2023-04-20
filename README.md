@@ -79,6 +79,7 @@ sudo apt dist-upgrade
 
 ### Passo 8 (Instale o Docker)
 seguir os passos da documentação oficial do docker, pois ela sempre é atualizada!
+https://docs.docker.com/engine/install/ubuntu/
 
 sudo usermod -aG docker $USER
 
