@@ -43,11 +43,11 @@ docker-compose --version
 
 ######### GIT #########################################################################################################################################################
 
-git config --global user.name "JordanoTI"
+git config --global user.name ""
 
-git config --global user.email "jordanoffice97@gmail.com"
+git config --global user.email ""
 
-ssh-keygen -t rsa -b 4096 -C "jordanoffice97@gmail.com"
+ssh-keygen -t rsa -b 4096 -C ""
 
 eval "$(ssh-agent -s)"
 
