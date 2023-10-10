@@ -88,6 +88,10 @@ sudo service docker start
 sudo update-alternatives --config iptables
 e escolha a opção 1 iptables-legacy
 
+sudo service docker start
+
+docker ps
+
 ######### Projeto Laravel
 
 composer install
@@ -95,7 +99,3 @@ mv .env.example .env
 php artisan cache:clear
 composer dump-autoload
 php artisan key:generate
-
-sudo service docker start
-
-docker ps
