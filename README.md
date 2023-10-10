@@ -1,7 +1,7 @@
 # expert-barnacle
 Dicas
 
-######### DOCKER ######################################################################################################################################################
+######### DOCKER 
 
 sudo apt-get update
 
@@ -33,7 +33,7 @@ newgrp docker
 
 docker run hello-world
 
-######### DOCKER-COMPOSE ##############################################################################################################################################
+######### DOCKER-COMPOSE 
 
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
@@ -41,7 +41,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 docker-compose --version
 
-######### GIT #########################################################################################################################################################
+######### GIT
 
 git config --global user.name ""
 
@@ -55,7 +55,7 @@ ssh-add ~/.ssh/id_rsa
 
 cat ~/.ssh/id_rsa.pub
 
-######### WSL 2 no Windows 10 #########################################################################################################################################
+######### WSL 2 no Windows 10 
 
 ### Passo 1 (PowerShell Admin): 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -87,6 +87,14 @@ sudo service docker start
 
 sudo update-alternatives --config iptables
 e escolha a opção 1 iptables-legacy
+
+######### Projeto Laravel
+
+composer install
+mv .env.example .env
+php artisan cache:clear
+composer dump-autoload
+php artisan key:generate
 
 sudo service docker start
 
