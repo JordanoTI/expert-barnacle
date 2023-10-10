@@ -95,7 +95,46 @@ docker ps
 ######### Projeto Laravel
 
 composer install
+
 mv .env.example .env
+
 php artisan cache:clear
+
 composer dump-autoload
+
 php artisan key:generate
+
+######### Ambiente de Dev wsl php8.1
+
+sudo apt install php8.1
+
+sudo apt install composer
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+
+nvm install --lts
+
+nvm use --lts
+
+sudo apt install postgresql postgresql-contrib
+
+sudo service postgresql start
+
+sudo -u postgres psql
+
+CREATE USER root WITH PASSWORD 'root';
+
+CREATE DATABASE teste;
+
+GRANT ALL PRIVILEGES ON DATABASE teste TO root;
+
+\q
+
+sudo apt install php8.1-pgsql
+
+sudo apt install php8.1-xml
+
+sudo apt install php8.1-curl
+
+sudo service apache2 restart
