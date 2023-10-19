@@ -108,10 +108,9 @@ php artisan key:generate
 
 sudo apt install php8.1
 
-sudo apt install composer
+INSTALAR COMPOSER PELO SITE
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-source ~/.bashrc
+INSTALAR NVM PELO REPOSITORIO DO GIT
 
 nvm install --lts
 
@@ -136,5 +135,9 @@ sudo apt install php8.1-pgsql
 sudo apt install php8.1-xml
 
 sudo apt install php8.1-curl
+
+sudo apt install php8.1-gd
+
+sudo apt install php8.1-zip
 
 sudo service apache2 restart
