@@ -148,4 +148,6 @@ sudo apt install php8.1-gd
 
 sudo apt install php8.1-zip
 
+sudo apt install php8.1-mbstring
+
 sudo service apache2 restart
