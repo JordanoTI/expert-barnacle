@@ -96,13 +96,21 @@ docker ps
 
 composer install
 
-mv .env.example .env
+cp .env.example .env
 
 php artisan cache:clear
 
 composer dump-autoload
 
 php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+
+npm install
+
+npm run dev
 
 ######### Ambiente de Dev wsl php8.1
 
