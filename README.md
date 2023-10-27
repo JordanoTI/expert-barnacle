@@ -108,6 +108,8 @@ php artisan migrate
 
 php artisan serve
 
+php artisan storage:link
+
 npm install
 
 npm run dev
