@@ -153,3 +153,6 @@ sudo apt install php8.1-zip
 sudo apt install php8.1-mbstring
 
 sudo service apache2 restart
+
+
+git clone https://JordanoTI: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@github.com/fininhors/nneventos-backofice.git
