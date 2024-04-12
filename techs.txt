@@ -1,2 +1,5 @@
 - REPOSITORIO DOS ARQUIVOS PHP PARA O WINDOWS
 https://windows.php.net/downloads/releases/
+
+usar sempre os arquivos no padrao:
+php-7.4.33-nts-Win32-vc15-x64.zip
