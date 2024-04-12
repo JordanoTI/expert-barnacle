@@ -1,0 +1,2 @@
+- REPOSITORIO DOS ARQUIVOS PHP PARA O WINDOWS
+https://windows.php.net/downloads/releases/
