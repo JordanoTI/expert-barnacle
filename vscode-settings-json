@@ -1,0 +1,54 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 14.5,
+  "intelephense.format.braces": "k&r",
+  "intelephense.diagnostics.enable": true,
+  "remote.SSH.remotePlatform": {
+    "10.123.0.240": "linux"
+  },
+  "codeium.enableConfig": {
+    "*": true,
+    "properties": true
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.fontLigatures": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "python.createEnvironment.trigger": "off",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "remote.autoForwardPortsSource": "hybrid",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "autopep8.args": ["--max-line-length", "120", "--experimental"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 20,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "editor.fontSize": 13.5,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "codeium.enableCodeLens": false,
+  "window.zoomLevel": -0.4,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme"
+}
